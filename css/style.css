@@ -1,0 +1,369 @@
+/*
+=======================================================================
+	General Rules
+=======================================================================
+*/
+
+* {
+	padding:0px;
+	margin:0px;
+}
+
+@font-face
+{
+font-family: xyz;
+src: url('../font/NeutraText-Book.otf') format("opentype");,
+     url('../font/NeutraText-Book.eot'); /* IE9 */
+}
+
+body {
+	background:#fff;
+	font-family:xyz;
+	color:#58595b;
+}
+
+a {
+	color:#58595b;
+	text-decoration:none;
+	outline:none;
+}
+
+a img {
+	border:none;
+}
+
+header,footer,#main,#head-wrap,#hleft,#hright{
+	display:block;
+}
+
+.clear{
+	clear:both;
+}
+
+#wrapper{
+	width:960px;
+	height:100%;
+	margin:10px auto 0px;
+}
+
+header{
+	width:960px;
+	height:85px;
+	margin-bottom:10px;
+}
+
+header #hleft{
+	float:left;
+	width:50%;
+	height:30%;
+	margin-top:32px;
+}
+
+ header #hright{
+	float:right;
+	width:450px;
+	height:78px;
+	margin-top:4px;
+}
+
+#main{
+	width:100%;
+	height:100%;
+}
+
+#container{
+	display:block;
+	width:950px;
+	height:100%;
+	margin:0 auto;
+	overflow:auto;
+}
+
+#container #lcont, #container #rcont{
+	display:block;
+	width:200px;
+	height:100%;
+	float:left;
+}
+
+#container #procont{
+	display:block;
+	width:730px;
+	height:514px;
+	float:right;
+	overflow:auto;
+}
+
+#container #rcont{
+	width:730px;
+	float:right;
+}
+
+#container #rcont #carousel {
+	margin:0px;
+	padding:0px;
+	width:735px;
+}
+
+#container #rcont #carousel ul {
+	list-style:none;
+	width:3650px;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+#container #rcont #carousel ul li {
+	display:inline;
+	float:left;
+}
+
+nav{
+	max-width:90%;
+	display:block;
+	word-wrap:normal;
+}
+
+nav ul li{
+	padding-bottom: 25px;
+	font-family:xyz;
+	font-size:16px;
+	text-transform:uppercase;
+	word-spacing:9px;	
+}
+
+nav ul li a{
+	color:#58595b;
+	text-decoration:none;
+	outline:none;
+}
+
+nav ul li a:hover{
+	color:#c71c2c;
+}
+
+nav ul li .active{
+	color:#c71c2c;
+}
+
+#main .smallbanner{
+	display:block;
+	height:100%;
+	width:730px;
+	height:158px;
+	margin-bottom:20px;
+}
+
+#main .smallbanner .sbanner-left{
+	display:block;
+	float:left;
+	width:159px;
+	height:inherit;
+}
+
+#main .smallbanner .sbanner-right{
+	display:block;
+	float:right;
+	width:571px;
+	height:inherit;
+	overflow:hidden;	
+}
+/*
+#main .smallbanner .sbanner-right #banner_backdrop_about{
+	position:relative;
+	background:url(../images/about-slide.jpg) repeat-x;
+	width:1602px;
+	height:158px;
+	-webkit-animation: backdrop_roll linear 15s infinite;
+	-moz-animation: backdrop_roll linear 15s infinite;
+	-ms-animation: backdrop_roll linear 15s infinite;
+	-o-animation: backdrop_roll linear 15s infinite;
+	animation: backdrop_roll linear 15s infinite;
+}
+
+#main .smallbanner .sbanner-right #banner_backdrop_awards{
+	position:relative;
+	background:url(../images/about-slide.jpg) repeat-x;
+	width:1602px;
+	height:158px;
+	-webkit-animation: backdrop_roll linear 15s infinite;
+	-moz-animation: backdrop_roll linear 15s infinite;
+	-ms-animation: backdrop_roll linear 15s infinite;
+	-o-animation: backdrop_roll linear 15s infinite;
+	animation: backdrop_roll linear 15s infinite;
+}
+
+#main .smallbanner .sbanner-right #banner_backdrop_alm{
+	position:relative;
+	background:url(../images/about-slide.jpg) repeat-x;
+	width:1602px;
+	height:158px;
+	-webkit-animation: backdrop_roll linear 20s infinite;
+	-moz-animation: backdrop_roll linear 20s infinite;
+	-ms-animation: backdrop_roll linear 20 infinite;
+	-o-animation: backdrop_roll linear 20 infinite;
+	animation: backdrop_roll linear 20s infinite;
+}
+
+@-webkit-keyframes backdrop_roll{from {right:0px;} to {right:801px;}}
+@-moz-keyframes backdrop_roll{from {right:0px;} to{right:801px;}}
+@-ms-keyframes backdrop_roll{from {right:0px;} to{right:801px;}}
+@-o-keyframes backdrop_roll{from {right:0px;} to{right:801px;}}
+@keyframes backdrop_roll{from {right:0px;} to{right:801px;}}
+*/
+
+#main .content{
+	display:block;
+	height:auto;
+	width:710px;
+	margin-left:5px;
+	float:left;
+	height:335px;
+	overflow:auto;
+	padding-right:15px;
+}
+
+#main .content p{
+	text-align:justify;
+	font-family:xyz;
+	color:#231f20;
+	font-size:15px;
+	line-height:19px;
+	word-spacing:5px;
+	margin-bottom: 15px;
+	margin-top:2px;
+}
+
+#main .content p a{
+	color:#c71c2c;
+}
+
+#main .content p a:hover{
+	text-decoration:underline;
+}
+
+#main .content h1{
+	font-family:xyz;
+	color:#231f20;
+	font-size:15px;
+	line-height:20px;
+}
+
+#main .content ul li{
+	margin-bottom:20px;
+}
+
+#main .content .contact_form{
+	padding: 10;
+	width: 400px;
+	padding-left: 0px;
+	float: left;
+}
+
+#main .content .input_field{
+	width: 400px;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px;
+	height: 20px;
+	border: 1px solid #ccc;
+	margin: 10;
+	background: #FFF;
+}
+
+#main .content .input_field_text{
+	width: 400px;
+	max-width:400px;
+	font-size: 12px;
+	color: #000000;
+	padding: 5px;
+	height: 40px;
+	border: 1px solid #ccc;
+	margin: 10;
+	background: #FFF;
+}
+
+#main .content .submit_btn{
+	margin-top: 2px;
+	font: right;
+	padding: 5px;
+}
+
+footer{
+	margin-top:15px;
+	border-top:1px solid #ccc;	
+}
+
+footer #footleft, footer #footright{
+	float:left;
+	font-size:12px;
+	padding:5px;
+}
+
+footer #footleft{
+	margin-left:0px;
+}
+
+footer #footright{
+	float:right;
+	margin-right:0px;
+}
+
+footer #footright a{
+	color:#c71c2c;
+}
+
+footer #footright a:hover{
+	text-decoration:underline;
+}
+
+#main .content .rcontent{
+	width:255px;
+	height:325px;
+	float:right;
+	padding-left:15px;
+	border-left:1px solid #ccc;
+}
+
+#main .content .lcontent{
+	float:left;
+}
+
+a.backbtn{
+	color:#999;
+}
+
+a.backbtn:hover{
+	color:#c71c2c;
+}
+
+
+/************Megha ***********************/
+
+
+.testimonials_content  strong  {
+font-size:25px;
+
+}
+
+.testimonials_content span strong{
+font-size: 18px;
+float:right;
+color:black;
+}
+.testimonials_content span{
+float:right;
+color:red;
+}
+
+.custom_content {
+height:485px !important;
+
+}
+nav ul li
+{
+word-spacing: 6px;
+letter-spacing: 2px;
+}
+
+/************Megha ***********************/
